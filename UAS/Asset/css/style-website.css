@@ -1,0 +1,144 @@
+@import url("https://use.typekit.net/ptq7bdj.css");
+.font-bungee {
+  font-family: "bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-iceberg {
+  font-family: "Iceberg", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar {
+  background-color: #eab788;
+}
+
+.p {
+  font-size: 34pt;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 90%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: left;
+  padding: 20px;
+}
+
+.overlay-text-intro {
+  position: absolute;
+  top: 182%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.overlay-text-socials {
+  position: absolute;
+  top: 175%;
+  left: 18%;
+  transform: translate(-50%, -50%);
+  color: #233041;
+  text-align: center;
+  padding: 10px;
+}
+
+.overlay-text-socials2 {
+  position: absolute;
+  top: 205%;
+  left: 18%;
+  transform: translate(-50%, -50%);
+  color: #233041;
+  text-align: center;
+  padding: 10px;
+}
+
+.img-overlay-persona {
+  position: relative;
+  width: auto;
+  height: 550px;
+  min-height: 400px;
+  margin-top: 100px;
+  z-index: 1;
+}
+
+.img-overlay-eye {
+  width: auto;
+  max-height: 250px;
+  z-index: 1;
+  margin-top: -170px;
+  margin-left: -90px;
+}
+
+.overlay-icon {
+  width: auto;
+  z-index: 1;
+  margin-top: -210px;
+  margin-left: 80px;
+}
+
+.img-social {
+  width: auto;
+  margin: 10px;
+  height: 25px;
+  max-height: 50px;
+}
+
+.skill-icon {
+  height: 40px;
+  width: auto;
+  margin: 5px;
+}
+
+.skill-icon2 {
+  height: 60px;
+  width: auto;
+  margin: 5px;
+}
+
+#experienceid {
+  padding: 80px;
+}
+.row {
+  justify-content: space-between;
+}
+
+.about-col-1 {
+  flex-basis: 100%;
+}
+
+.about-col-1 {
+  flex-basis: 60%;
+}
+
+.tab-titles {
+  margin: 20px 20px 40px;
+}
+
+.tab-links {
+  margin-right: 50px;
+  cursor: pointer;
+  position: relative;
+}
+
+.tab-links::after {
+  content: "";
+}
+
+.tab-contents ul li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+.tab-contents {
+  display: none;
+}
+.tab-contents.active-tab {
+  display: block;
+}
